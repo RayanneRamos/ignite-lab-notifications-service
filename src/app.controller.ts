@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly prisma: PrismaService) {}
 
   @Get()
-  getHello() {
+  list() {
     return this.prisma.notification.findMany();
   }
 }
