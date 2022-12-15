@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+import { Injectable } from '@nestjs/common/decorators';
 import { NotificationsRepository } from '../repositories/notification-repository';
 
 interface CountRecipientNotificationRequest {
@@ -8,6 +9,8 @@ interface CountRecipientNotificationRequest {
 interface CountRecipientNotificationResponse {
   count:  number;
 }
+
+@Injectable()
 export class CountRecipientNotification {
   constructor(private notificationRepository: NotificationsRepository) {}
   
