@@ -25,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - [NestJS](https://docs.nestjs.com/)
   - [Jest](https://jestjs.io/pt-BR/)
   - [Prisma](https://www.prisma.io/)
+  - [Kafka](https://kafka.js.org/)
 
 ## 🚀 Instalação
 
