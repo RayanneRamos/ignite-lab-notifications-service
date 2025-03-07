@@ -18,7 +18,15 @@ aplicação de serviço de notificações.
   - [x] Aula 03 | Infraestrutura e injeção de dependências
   - [x] After Ignite Lab | Encerramento do Evento
 
-## 🧪 Technologies
+## 🌟 Funcionalidades
+
+1. **Envio de Notificações**: Capacidade de enviar notificações para os usuários com conteúdo customizável. 
+2. **Recebimento de Notificações em Tempo Real**: Usuários recebem notificações instantaneamente após serem disparadas. 
+3. **Gerenciamento de Notificações**: Usuários podem visualizar, marcar como lidas e excluir notificações.
+4. **Notificações Push**: Suporte para notificações push, garantindo que os usuários sejam notificados mesmo quando a aplicação não estiver aberta.
+5. **Interface de Usuário**: Interface amigável e intuitiva para exibir notificações de forma clara e organizada.
+
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
